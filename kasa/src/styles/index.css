@@ -1,0 +1,18 @@
+
+*{
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/* Importation page et composants */
+@import '../styles/normalize.css';
+@import '../styles/pages/Home.css';
+@import '../styles/pages/About.css';
+@import '../styles/pages/Error.css';
+@import '../styles/pages/Logements.css';
+@import '../styles/components/Header.css';
+@import '../styles/components/Footer.css';
+@import '../styles/components/Banner.css';
+@import '../styles/components/Card.css';
+@import '../styles/components/Collapse.css';
+@import '../styles/components/Carrousel.css';
+@import '../styles/components/Rating.css';

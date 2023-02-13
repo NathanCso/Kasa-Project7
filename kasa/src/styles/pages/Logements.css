@@ -1,0 +1,174 @@
+
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 92%;
+}
+
+.header_loc{
+    width: 70%;
+    margin: 20px 0;
+}
+
+.loc_title{
+    font-size: 36px;
+    font-weight: 500;
+    color: #FF6060;
+}
+
+.location{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #FF6060;
+}
+
+.loc_tags{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+
+.tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    background-color: #FF6060;
+    border-radius: 10px;
+    padding: 7px;
+    min-width: 115px;
+    width: auto;
+    height: 25px;
+}
+
+.host_infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.host_profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.host_name{
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+    text-align: right;
+    color: #FF6060;
+    width: 93px;
+}
+
+.host_images{
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+}
+
+.host_rate{
+    margin-right: -20px;
+}
+
+.body_page_info{
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    column-gap: 8%;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.page_body{
+    font-size: 18px;
+}
+
+.page_bodycontent{
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Respsonsive */
+@media all and (max-width:768px){
+    .header_menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 90%;
+    }
+
+    .header_loc{
+        width: 100%;
+    }
+    
+    .loc_title{
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .location{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .loc_tags{
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 10px;
+        min-width: 100px;
+        align-items: center;
+    }
+
+    .tag{
+        border-radius: 5px;
+        font-size: 10px;
+        height: 18px;
+        min-width: 85px;
+        width: auto;
+        margin: 0;
+    }
+
+    .host_infos{
+        width: 100%;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: baseline;
+        margin: 0;
+    }
+    
+    .host_profile{
+        margin-bottom: 0;
+    }
+
+    .host_images{
+        width: 32px;
+        height: 32px;
+    }
+
+    .host_name{
+        font-size: 12px;
+    }
+
+    .body_page_info{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    .page_bodycontent{
+        font-size: 12px;
+        font-weight: 400;
+        min-height: 0;
+    }
+}
